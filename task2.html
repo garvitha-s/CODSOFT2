@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mary Clara - Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f9f8f4;
+    }
+
+    header {
+      background-color: #354f52;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.5em;
+    }
+
+    header nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 15px;
+      transition: color 0.3s ease;
+    }
+
+    header nav a:hover {
+      color: #84a98c;
+    }
+
+    .hero {
+      background-color: #52796f;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+      animation: fadeIn 1.5s;
+    }
+
+    .hero img {
+      width: 350px;
+height:280px;
+      border-radius: 10%;
+      margin-bottom: 15px;
+    }
+
+    .section {
+      padding: 30px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .skills {
+      position: relative;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      padding: 20px;
+      color: #fff;
+      animation: slideIn 1.5s;
+width:100%;
+height:500px;
+    }
+
+    .skills img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+      z-index: -1;
+      opacity: 0.7;
+    }
+
+    .skills ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .skills ul li {
+      margin-bottom: 10px;
+    }
+
+    .projects {
+      background-color: #cad2c5;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      padding: 20px;
+      animation: fadeInUp 1.5s;
+    }
+
+    .projects ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .projects ul li {
+      margin-bottom: 10px;
+    }
+
+    .projects img {
+      max-width: 100%;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+    .resume {
+      text-align: center;
+      margin-bottom: 20px;
+      animation: fadeIn 1.5s;
+    }
+
+    .resume a {
+      text-decoration: none;
+      color: #354f52;
+      border: 2px solid #354f52;
+      padding: 10px 15px;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    .resume a:hover {
+      background-color: #354f52;
+      color: white;
+    }
+
+    .contact {
+      background-color: #354f52;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      animation: fadeIn 1.5s;
+    }
+
+    footer {
+      background-color: #52796f;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        transform: translateY(50px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mary Clara</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="about">
+    <img src="C:\Users\NITIN\OneDrive\Pictures\Saved Pictures\29ef01e6bdb0d42d0800106fe10afc75.jpg" alt="Mary Clara">
+    <h2>HI THERE, I'M MARY CLARA</h2>
+    <p>Welcome! I'm Clara, an interior designer with a flair for creating spaces that are not only beautiful but also functional. With over 8 years of experience, I've transformed countless homes and businesses into dream spaces that reflect their unique personalities and lifestyles. Let's turn your vision into reality!</p>
+  </section>
+<br><br>
+  <section class="section skills" id="skills">
+    <img src="C:\Users\NITIN\OneDrive\Pictures\Saved Pictures\2.png" alt="Skills Background">
+    <h2>Skills Section</h2>
+    <ul>
+      <li><strong>Space Planning:</strong> Creating optimal layouts that maximize space and function.</li>
+      <li><strong>Color Theory:</strong> Expert in selecting and combining colors to set the perfect mood.</li>
+      <li><strong>3D Rendering:</strong> Bringing designs to life with realistic visualizations.</li>
+      <li><strong>Furniture Selection:</strong> Curating pieces that balance style and comfort.</li>
+      <li><strong>Lighting Design:</strong> Enhancing ambiance with innovative lighting solutions.</li>
+      <li><strong>Project Management:</strong> Ensuring seamless execution from concept to completion.</li>
+      <li><strong>Sustainable Design:</strong> Incorporating eco-friendly practices and materials.</li>
+    </ul>
+  </section>
+
+  <section class="section projects" id="projects">
+    <h2>Project Section</h2>
+    <ul>
+      <li>
+        <strong>Project 1: Modern Living Room</strong>
+        <p>This sleek and stylish living room features bold accents and smart storage solutions, creating a contemporary yet cozy space.</p>
+        <img src="C:\Users\NITIN\OneDrive\Pictures\Saved Pictures\contemporary-living-room-with-wooden-furniture.jpg" alt="Modern Living Room">
+      </li>
+      <li>
+        <strong>Project 2: Cozy Café</strong>
+        <p>A charming café with rustic elements, custom-made furniture, and ambient lighting that invites you to relax and enjoy.</p>
+        <img src="C:\Users\NITIN\OneDrive\Pictures\Saved Pictures\Cozy-and-cute-cafe-interior.jpg" alt="Cozy Café">
+      </li>
+      <li>
+        <strong>Project 3: Office Space Redesign</strong>
+        <p>A functional and inspiring office environment designed to boost productivity and creativity.</p>
+        <img src="C:\Users\NITIN\OneDrive\Pictures\Saved Pictures\images.jpg" alt="Office Space Redesign">
+      </li>
+    </ul>
+  </section>
+
+  <section class="section resume">
+    <h2>Resume Section</h2>
+    <a href="resume.pdf" download>Download My Resume</a>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Section</h2>
+    <p>Email: claradesign@gmail.com</p>
+    <p>Phone: 970-676-7898</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com" style="color: #fff;">MARY CLARA</a></p>
+    <p>Instagram: <a href="https://www.instagram.com" style="color: #fff;">Interior.des</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Mary Clara. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
